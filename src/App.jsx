@@ -1,16 +1,10 @@
-
+import AppRouter from "./Presentation/Routes/AppRouter"
 
 
 
 function App() {
 
-  return (
-    <>
-      <h1>Welcome to My Shelf!</h1>
-
-      <p>The site for Shelf!</p>
-    </>
-  )
+  return <AppRouter />
 
 }
 

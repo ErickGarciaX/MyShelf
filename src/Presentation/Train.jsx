@@ -19,24 +19,18 @@ function Train() {
 
     };
 
-
     return (
         <>
             <main>
                 <h3>Type something:</h3>
-
                 <input 
                     onChange={(e) => setInputValue(e.target.value)} 
                     value={inputValue}
                     type="text" 
                     placeholder="Type here..." >
-
                 </input>
-
                 <button onClick={handleAdd}>Add</button>
-            </main>
-
-
+            </main>                     
             <ul>
                 {items.map((items, index) => (
                     <li key={index}>
@@ -46,9 +40,7 @@ function Train() {
                 ))}
             </ul>
         </>
-
     );
-
 }
 
 export default Train;
